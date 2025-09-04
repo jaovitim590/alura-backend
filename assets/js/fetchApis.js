@@ -1,4 +1,4 @@
-let { API_URL } = process.env;
+let { API_URL } = https://projeto-alura.onrender.com;
 
 // Função para buscar os dados do endpoint
 export default async function fetchImages() {
