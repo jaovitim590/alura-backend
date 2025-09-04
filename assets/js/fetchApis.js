@@ -1,4 +1,4 @@
-const API_URL = "https://projeto-alura.onrender.com"; // URL direta da API
+const API_URL = "https://projeto-alura.onrender.com/posts"; // URL direta da API
 
 // Função para buscar os dados do endpoint
 export default async function fetchImages() {
