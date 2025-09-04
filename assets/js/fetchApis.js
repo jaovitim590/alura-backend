@@ -1,9 +1,9 @@
-let { API_URL } = https://projeto-alura.onrender.com;
+const API_URL = "https://projeto-alura.onrender.com"; // URL direta da API
 
 // Função para buscar os dados do endpoint
 export default async function fetchImages() {
   try {
-    const response = await fetch(process.env.API_URL); // Usando a URL importada
+    const response = await fetch(API_URL); // usando a URL direta
     const data = await response.json();
     return data;
   } catch (error) {
